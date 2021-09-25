@@ -1,8 +1,10 @@
-package pucrs.qp.triangle;
+package pucrs.qp.salary;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
+
+import pucrs.qp.salary.P1009;
 
 public class P1009Test {
 

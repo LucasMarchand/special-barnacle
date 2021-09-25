@@ -1,4 +1,4 @@
-package pucrs.qp.triangle;
+package pucrs.qp.salary;
 
 public class P1009 {
 
