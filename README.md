@@ -1,3 +1,3 @@
-# special-barnacle [![Build Status](https://travis-ci.org/masmangan/special-barnacle.svg?branch=master)](https://travis-ci.org/masmangan/special-barnacle)
+# special-barnacle [![Build Status](https://app.travis-ci.com/LucasMarchand/special-barnacle.svg?branch=master)](https://app.travis-ci.com/LucasMarchand/special-barnacle)
 
 T1
