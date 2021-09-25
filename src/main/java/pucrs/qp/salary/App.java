@@ -2,9 +2,13 @@ package pucrs.qp.salary;
 
 public class App {
 
-    public static double calculate_salary(double d, double e) {
-		// TODO Auto-generated method stub
-		return 684.54;
+    public static double calculate_salary(double baseSalary, double totalSoldByVendor) {
+        
+        if(totalSoldByVendor < 0){
+            totalSoldByVendor =  totalSoldByVendor * -1;
+        }
+
+        return baseSalary + (totalSoldByVendor * 0.15);
 	}
 
     public static void main(String[] args) {
