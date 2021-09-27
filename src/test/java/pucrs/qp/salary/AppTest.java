@@ -28,6 +28,27 @@ public class AppTest {
 	}
 
 	@Test
+	public void testVendaZerada(){
+		double actual = App.calculate_salary(700.00, 0.00);
+		double expected = 700.00;
+		assertEquals(expected, actual, 0.1);
+	}
+
+	@Test
+	public void testSalarioBaseComValorDecimal(){
+		double actual = App.calculate_salary(500.86, 1230.00);
+		double expected = 685.40;
+		assertEquals(expected, actual, 0.1);
+	}
+
+	@Test
+	public void testVendaComValorDecimal(){
+		double actual = App.calculate_salary(1700.00, 1230.50);
+		double expected = 1884.58;
+		assertEquals(expected, actual, 0.1);
+	}
+
+	@Test
 	public void testPassandoValoresInteiros(){
 		double actual = App.calculate_salary(500, 1230);
 		double expected = 684.54;
