@@ -8,6 +8,10 @@ public class App {
             totalSoldByVendor =  totalSoldByVendor * -1;
         }
 
+        if(baseSalary < 0){
+            baseSalary =  baseSalary * -1;
+        }
+
         return baseSalary + (totalSoldByVendor * 0.15);
 	}
 
