@@ -2,7 +2,7 @@ package pucrs.qp.salary;
 
 import java.util.Scanner;
 
-public class App {
+public class Main {
 
     public static double calculate_salary(double baseSalary, double totalSoldByVendor) {
         
@@ -18,11 +18,15 @@ public class App {
 	}
 
     public static void main(String[] args) {
+
         Scanner input = new Scanner(System.in);
+
         String name = input.next();
         double baseSalary = input.nextDouble();
         double totalSoldByVendor = input.nextDouble();
-        double total = App.calculate_salary(baseSalary, totalSoldByVendor);
+        
+        double total = Main.calculate_salary(baseSalary, totalSoldByVendor);
         System.out.println(String.format("TOTAL = R$ %.2f" , total));
+        
     }
 }
