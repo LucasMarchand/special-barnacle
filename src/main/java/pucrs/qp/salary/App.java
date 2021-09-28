@@ -1,5 +1,7 @@
 package pucrs.qp.salary;
 
+import java.util.Scanner;
+
 public class App {
 
     public static double calculate_salary(double baseSalary, double totalSoldByVendor) {
@@ -16,7 +18,11 @@ public class App {
 	}
 
     public static void main(String[] args) {
-        System.out.println("Salário com Bônus!");
-		System.out.println(calculate_salary(500.00, 1230.00));
+        Scanner input = new Scanner(System.in);
+        String name = input.next();
+        double baseSalary = input.nextDouble();
+        double totalSoldByVendor = input.nextDouble();
+        double total = App.calculate_salary(baseSalary, totalSoldByVendor);
+        System.out.println(String.format("TOTAL = R$ %.2f" , total));
     }
 }
