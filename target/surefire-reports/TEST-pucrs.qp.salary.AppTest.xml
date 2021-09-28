@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="pucrs.qp.triangle.AppTest" time="0" errors="0" skipped="0">
+<testsuite tests="7" failures="0" name="pucrs.qp.salary.AppTest" time="0.004" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.12+7-LTS"/>
@@ -62,8 +62,11 @@
     <property name="java.vendor.version" value="Zulu11.50+19-CA"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="pucrs.qp.triangle.AppTest" name="testEquilatero" time="0"/>
-  <testcase classname="pucrs.qp.triangle.AppTest" name="testEscaleno" time="0"/>
-  <testcase classname="pucrs.qp.triangle.AppTest" name="testInvalido" time="0"/>
-  <testcase classname="pucrs.qp.triangle.AppTest" name="testIsosceles" time="0"/>
+  <testcase classname="pucrs.qp.salary.AppTest" name="testSalarioBaseComValorNegativo" time="0.004"/>
+  <testcase classname="pucrs.qp.salary.AppTest" name="testVendaZerada" time="0"/>
+  <testcase classname="pucrs.qp.salary.AppTest" name="testPassandoValoresInteiros" time="0"/>
+  <testcase classname="pucrs.qp.salary.AppTest" name="testTotalVendidoComValorNegativo" time="0"/>
+  <testcase classname="pucrs.qp.salary.AppTest" name="testVendaComValorDecimal" time="0"/>
+  <testcase classname="pucrs.qp.salary.AppTest" name="test500And1230Give68454" time="0"/>
+  <testcase classname="pucrs.qp.salary.AppTest" name="testSalarioBaseComValorDecimal" time="0"/>
 </testsuite>
